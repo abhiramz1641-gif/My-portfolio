@@ -74,6 +74,7 @@ nav {
 }
 
 .home-contents {
+    width: 100%;
     padding-top: 250px;
     height: 460px;
     text-align: center;
@@ -99,6 +100,9 @@ nav {
     text-align: center;
     font-family: "Special Gothic Expanded One", sans-serif;
 
+}
+#About{
+    width: 100%;
 }
 
 #pic {
@@ -180,6 +184,11 @@ nav {
     line-height: 1.5;
 }
 
+#project {
+    margin-top: 150px;
+    width: 100%;
+}
+
 .projects {
     margin: 8% 8% 0px 8%;
     display: flex;
@@ -222,13 +231,10 @@ nav {
     color: white;
 }
 
-#project {
-    margin-top: 150px;
-}
-
 
 #skills {
     margin-top: 150px;
+    width: 100%;
 }
 
 .skillcontent {
@@ -308,7 +314,8 @@ nav {
 }
 
 #contact {
-    margin: 200px 8% 0px 8%;
+    margin: 8% 8% 0px 8%;
+    text-align: center;
 }
 
 .iconcollection {
@@ -410,6 +417,10 @@ body {
 
 /* responsive  */
 @media (max-width: 768px) {
+    body {
+        overflow-x: hidden;
+    }
+
     nav {
         flex-direction: column;
         height: auto;
