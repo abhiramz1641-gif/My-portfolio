@@ -193,6 +193,11 @@ nav {
     margin: 8% 8% 0px 8%;
     display: flex;
     justify-content: space-evenly;
+    text-align: center;
+}
+.projects a{
+    display: flex;
+    justify-content: center;
 }
 
 .project-img {
@@ -209,7 +214,7 @@ nav {
 .cover {
     background-image: linear-gradient(to top, black, black, gray);
     padding: 10px;
-    height: auto;
+    height: 300px;
     width: 350px;
     display: flex;
     flex-direction: column;
